@@ -1,0 +1,7 @@
+aaa.wav,123,Audio file music,120,Adagio,Armin,Adagio,ELECTRO,2009-01-01
+image.png,1111,Picture,123,456,George Chatz,2009-05-01
+k.mp4,100,Video file,129,HIGH,2009-05-01
+aaaaaaaa
+a.txt
+abc.av
+music.wav,123,Recording,120,Mix,Dj,Summer Mix,POP,2009-06-01

@@ -1,0 +1,5 @@
+FileType{id = 1 size= 123 in mb , description='Audio file music', filename='aaa.wav', date=2009-01-01, Type : Audio, duration = 120in sec, songName ='Adagio', songProducer ='Armin', songAlbum ='Adagio', category =ELECTRO}
+FileType{id = 2 size= 1111 in mb , description='Picture', filename='image.png', date=2009-05-01, type : Image, height =123, width =456, takenBy ='George Chatz'}
+FileType{id = 3 size= 100 in mb , description='Video file', filename='k.mp4', date=2009-05-01, Type : Video, duration = 129 in sec, quality = HIGH}
+FileType{id = 4 size= 123 in mb , description='Recording', filename='music.wav', date=2009-06-01, Type : Audio, duration = 120in sec, songName ='Mix', songProducer ='Dj', songAlbum ='Summer Mix', category =POP}
+FileType{id = 5 size= 1044 in mb , description='CD', filename='music1.wav', date=2009-06-01, Type : Audio, duration = 120in sec, songName ='Mix', songProducer ='Dj', songAlbum ='Summer Mix', category =POP}
