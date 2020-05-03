@@ -94,7 +94,7 @@ public class Ui {
             System.out.println("3. Add new file from console");
             System.out.println("4. Remove file from already loaded");
             System.out.println("5. Save all files included the newly added");
-            System.out.println("6. Calculate duration of all audio files");
+            System.out.println("6. Calculate total size of all files");
             System.out.println("7. Display by input image video or audio");
             System.out.println("8. Search file by id");
             System.out.println("9. Search file max size");
@@ -280,10 +280,13 @@ public class Ui {
     }
 
     public void calculate(){
-        System.out.println("Calculating");
+        System.out.println("Calculating total size");
+        int TotalSize = 0;
         for (int i=0; i<filesLoaded.size(); i++){
-            System.out.println(filesLoaded.get(i));
+            TotalSize += filesLoaded.get(i).getSize();
         }
+
+        System.out.println("Total size files is: " + TotalSize + " in mb! ");
     }
 
     public void displayByInput(){
